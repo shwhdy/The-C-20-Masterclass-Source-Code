@@ -4,7 +4,8 @@
 int main(){
 
 	//Declare array
-    char message [5]  {"Hello"};
+    //char message [6]  {"Hello"};
+    char message [5] {'H','e','l','l','o'};
     //int data[5] {1,2,3,3,3};
 
     //std::cout << "data : " << data << std::endl;
@@ -42,14 +43,14 @@ int main(){
 
  
     //If a character array is null terminated, it's called as C-String
-    /*
+    
     char message1 [] {'H','e','l','l','o','\0'};
     std::cout << "message1 : " << message1 << std::endl;
     std::cout << "sizeof(message1) : " << sizeof(message1) << std::endl;
-    */
+    
 
   
-   /*
+   
     char message2 [6] {'H','e','l','l','o'};
     std::cout << "message2 : " << message2 << std::endl;
     std::cout << "sizeof(message2) : " << sizeof(message2) << std::endl;
@@ -58,16 +59,16 @@ int main(){
 											//as there is not null character
     std::cout << "message3 : " << message3 << std::endl;
     std::cout << "sizeof(message3) : " << sizeof(message3) << std::endl;
-    */
+   /* */
 
     
 
     //String literal
-    /*
+    
     char message4 [] {"Hello"};
     std::cout << "message4 : " << message4 << std::endl;
     std::cout << "sizeof(message4) : " << sizeof(message4) << std::endl;
-    */
+    
 
 
 

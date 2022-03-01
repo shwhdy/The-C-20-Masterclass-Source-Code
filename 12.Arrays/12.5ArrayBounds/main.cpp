@@ -13,9 +13,11 @@ int main(){
 	//program may read bogus data at a later time. Or you can even
 	//corrupt data used by other parts of your ptogram
 
-	numbers[129] = 1000;
+	numbers[128] = 1000;
 	std::cout << "numbers[129] : " << numbers[129] << std::endl;
-
+	std::cout << "numbers[128] : " << numbers[128] << std::endl;
+	std::cout << "numbers[130] : " << numbers[130] << std::endl;
+	std::cout << "numbers[1790] : " << numbers[1790] << std::endl;
     std::cout << "Program ending...." << std::endl;
 
     
